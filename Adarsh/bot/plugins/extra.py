@@ -23,7 +23,12 @@ async def maintainers(b,m):
                         [
                             [
                                 InlineKeyboardButton("Amazing Deals⚡️🔥😱 ", url=f"https://telegram.me/hotflashdealss")
+                            ],
+                            
+                            [
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://telegram.me/movierulzking")
                             ]
+                                
                         ]
                     ),
                     
