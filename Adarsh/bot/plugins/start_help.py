@@ -56,7 +56,7 @@ async def start(b, m):
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
                 photo="https://graph.org/file/a8095ab3c9202607e78ad.jpg",
-                caption="<b>⚠️  ɪɴ  ᴏʀᴅᴇʀ  ᴛᴏ  ᴜꜱᴇ  ᴍᴇ.  ʏᴏᴜ  ʜᴀᴠᴇ  ᴛᴏ  ᴊᴏɪɴ  ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇs  ᴄʜᴀɴɴᴇʟ  ꜰɪʀsᴛ.</b>",
+                caption="<b>⚠️  ɪɴ  ᴏʀᴅᴇʀ  ᴛᴏ  ᴜꜱᴇ  ᴍᴇ.  ʏᴏᴜ  ʜᴀᴠᴇ  ᴛᴏ  ᴊᴏɪɴ  ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇs  ᴄʜᴀɴɴᴇʟ  ꜰɪʀsᴛ & send /start command.</b>",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
