@@ -70,13 +70,13 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<b>ꜱᴏᴍᴇᴛʜɪɴɢ  ᴡᴇɴᴛ  ᴡʀᴏɴɢ  <a href='https://telegram.me/BotszSupport'>ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ꜰᴏʀ  ꜱᴜᴘᴘᴏʀᴛ</a></b>",
+                text="<b>ꜱᴏᴍᴇᴛʜɪɴɢ  ᴡᴇɴᴛ  ᴡʀᴏɴɢ  <a href='https://telegram.me/movierulzking'>ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ꜰᴏʀ  ꜱᴜᴘᴘᴏʀᴛ</a></b>",
                 
                 disable_web_page_preview=True)
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/7e9722f41258b8f81fa3d.jpg",
+        photo ="https://telegra.ph/file/d267f232d4dead7af44f5.jpg",
         caption =f'{m.from_user.mention(style="md")},\n\nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ɢᴇɴᴇʀᴀᴛᴏʀ  ʙᴏᴛ.\n\nᴊᴜꜱᴛ  ꜱᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ꜰɪʟᴇ  ᴀɴᴅ  ɢᴇᴛ  ᴀ  ᴅɪʀᴇᴄᴛ  ᴅᴏᴡɴʟᴏᴀᴅ  ʟɪɴᴋ  ᴀɴᴅ  ꜱᴛʀᴇᴀᴍᴀʙʟᴇ  ʟɪɴᴋ.',
         reply_markup=buttonz)
 
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://telegram.me/NobiDeveloperr).",
+                text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://telegram.me/movierulzking).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -126,20 +126,19 @@ async def help_handler(bot, message):
 
 <b>╭━━━━〔ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
-┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/NobiDeveloper'>ɴᴏʙɪᴛᴀ sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
+┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/sm_contactadmin_bot'>File sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
 ┣⪼<b>ꜱᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
-┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://telegram.me/ReviewsGallary'>ʀᴇᴠɪᴇᴡꜱ ɢᴀʟʟᴀʀʏ</a></b>
-┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://telegram.me/BotszSupport'>ʙᴏᴛꜱᴢʟɪꜱᴛ ꜱᴜᴘᴘᴏʀᴛ</a></b>
-┣⪼<b>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href='https://telegram.me/AllRequestGroups'>ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://telegram.me/movierulzking'>Back up</a></b>
+┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://telegram.me/hotflashdealss '>Amazing Deals⚡️🔥😱</a></b>
+┣⪼<b>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href='https://telegram.me/requestyourmoviehere'>ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ</a></b>
 ┃
 <b>╰━━━━〔ᴘʟᴇᴀꜱᴇ sᴜᴘᴘᴏʀᴛ〕</b>""",
         
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://youtube.com/@NobiDeveloper")],
-                [InlineKeyboardButton("💥  ꜱᴏᴜʀᴄᴇ  ᴄᴏᴅᴇ", url="https://github.com/NobiDeveloper")]
+                [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://telegram.me/SM_contactadmin_bot")]
             ]
         )
     )
